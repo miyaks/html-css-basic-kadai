@@ -1,0 +1,23 @@
+PS C:\Users\kosei> cd D:\侍レッスン\kadai\kadai_git
+PS D:\侍レッスン\kadai\kadai_git> mkdir git_challenge
+
+
+    ディレクトリ: D:\侍レッスン\kadai\kadai_git
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       2024/10/06     21:08                git_challenge
+
+PS D:\侍レッスン\kadai\kadai_git\git_challenge> git add hello_world.txt
+PS D:\侍レッスン\kadai\kadai_git\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) badd0f9] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS D:\侍レッスン\kadai\kadai_git\git_challenge> git add hello_world.txt
+PS D:\侍レッスン\kadai\kadai_git\git_challenge> git commit -m "日本語訳を追加"
+[main 47ed456] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS D:\侍レッスン\kadai\kadai_git\git_challenge> git log --oneline
+47ed456 (HEAD -> main) 日本語訳を追加
+badd0f9 hello_world.txtを追加
